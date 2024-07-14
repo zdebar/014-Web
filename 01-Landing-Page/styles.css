@@ -1,0 +1,133 @@
+
+* {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  overflow: hidden;
+}
+
+p, figcaption, a, button {
+  font-size: 10px;
+  text-decoration: none;
+}
+
+button {
+  background-color: #3882F6;
+  color: #F9FAF8;
+
+  border: 1px white solid;
+  border-radius: 5px;
+  width: 80px;
+  height: 20px;
+  margin: 5px 0 0 0;
+}
+
+.black * {
+  color: #1F2937;
+}
+
+.width600 {
+  width: 600px;
+  margin: auto;
+  text-align: center;
+}
+
+.h-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0 40px 0;
+}
+
+
+
+/* Header */
+
+header {
+  background-color: #1F2937;
+  color: #F9FAF8;
+}
+
+/* First Div */
+
+h2 {
+  font-size: 18px;
+  margin: 20px auto;
+}
+
+.card {
+  width: 104px;
+}
+
+.card img{
+  width: 100px;
+  height: 100px;
+  border: 2px #3882F6 solid;
+  border-radius: 8px;
+}
+
+figcaption {
+  text-align: center;
+}
+
+
+
+
+
+/* Second Div */
+
+.gray-back {
+  background-color: #E5E7EB;
+}
+
+.quote {
+  color: #1F2937;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: lighter;
+
+  width: 450px;
+  margin: 40px auto 25px;
+}
+
+.j-right {
+  text-align: right;
+  font-style: normal;
+  font-size: 12px;
+}
+
+/* Third Div */
+
+.second {
+  background-color: #E5E7EB;
+}
+
+.blue-box {
+  background-color: #3882F6;
+  color: #F9FAF8;
+  font-size: 15px;
+
+  display: flex;
+  justify-content: space-evenly;
+
+  width: 600px;
+  padding: 25px 0 25px 0;
+  margin: 40px auto;  
+  border-radius: 5px;
+}
+
+
+/* Footer */
+
+footer {
+  background-color: #1F2937;
+  color: #F9FAF8;
+  text-align: center;
+  padding: 20px 0;
+}
+
+
+
+
+
+
+
+

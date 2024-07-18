@@ -30,7 +30,7 @@ function operate(a, operator, b) {
 function handleNumberButtons (button) {
   button.addEventListener("click",()=>{ 
     displayValue = button.innerText
-
+    printToDisplay(displayValue)
   });
 }
 

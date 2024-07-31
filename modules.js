@@ -1,11 +1,6 @@
-// a file called functionOne.js
-const functionOne = () => console.log('FUNCTION ONE!');
+// main.js
+import { PI, add, Calculator } from './math.js';
 
-export { functionOne };
-
-
-// another JS file
-// Note: You can only use single quotes (') or double quotes (") for import statements 
-import { functionOne } from './functionOne';
-
-functionOne(); // this should work as expected!
+console.log(PI);  // 3.14
+console.log(add(2, 3));  // 5
+const calc = new Calculator();
